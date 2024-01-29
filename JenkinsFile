@@ -23,7 +23,7 @@ stages{
 	{
 		steps
 		{
-		echo "Deploying Pipeline"
+		echo "Deploying Pipeline in QA Branch"
 		}
 	}
 
