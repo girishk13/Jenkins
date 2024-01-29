@@ -3,7 +3,7 @@ pipeline
 
 agent any
 stages{
-	Stage('Build')
+	stage('Build')
 	{
 		steps
 		{
@@ -12,14 +12,14 @@ stages{
 	}	
 
 
-	Stage('Test')
+	stage('Test')
 	{
 		steps
 			{
 			echo "Testing Pipeline"
 			}
 	}
-	Stage('Deploy')
+	stage('Deploy')
 	{
 		steps
 		{
